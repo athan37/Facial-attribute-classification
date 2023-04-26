@@ -22,3 +22,9 @@ Test accuracy: 0.7400000095367432
 ## Evaluation
 
 We first tried training and predicting 50 traits for the facial attributes with 'binary_crossentropy', however, it doesn't produce good result because it's hard to predict all 50 traits correctly for each person. Because of that, we decided to break down into different pair of traits. We first train on the basic CNN model and got the accuracy of 54%. Next, we tried with EfficientNet and the accuracy improves to 74%.
+
+##How to load and run the code
+
+1. Add this file to the root path of your drive: https://drive.google.com/file/d/1Sxt3FXYSymy-dbVhOGg99P7tJOyKGQUY/view?usp=sharing
+2. Add this file to the root path of your drive: https://drive.google.com/file/d/0B7EVK8r0v71pblRyaVFSWGxPY0U/view?usp=sharing&resourcekey=0-YW2qIuRcWHy_1C2VaRGL3Q
+3. Run the colab 
