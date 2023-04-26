@@ -25,6 +25,7 @@ We first tried training and predicting 50 traits for the facial attributes with 
 
 ##How to load and run the code
 
-1. Add this file to the root path of your drive: https://drive.google.com/file/d/1Sxt3FXYSymy-dbVhOGg99P7tJOyKGQUY/view?usp=sharing
-2. Add this file to the root path of your drive: https://drive.google.com/file/d/0B7EVK8r0v71pblRyaVFSWGxPY0U/view?usp=sharing&resourcekey=0-YW2qIuRcWHy_1C2VaRGL3Q
-3. Run the colab 
+1. Add data file to the root path of your drive: https://drive.google.com/file/d/1Sxt3FXYSymy-dbVhOGg99P7tJOyKGQUY/view?usp=sharing
+2. Add label file to the root path of your drive: https://drive.google.com/file/d/0B7EVK8r0v71pblRyaVFSWGxPY0U/view?usp=sharing&resourcekey=0-YW2qIuRcWHy_1C2VaRGL3Q
+3. Run the first line of the Colab and connect it to your drive
+4. Rull the rest of the Colab
