@@ -12,11 +12,16 @@ We evaluate the performance of our system on a test set of facial images, and re
 ## Model
 
 Basic CNN model:
+
 Test loss: 0.4835874140262604
+
 Test accuracy: 0.5479999780654907
 
+
 Transfer learning with EfficientNet:
+
 Test loss: 0.6156396269798279
+
 Test accuracy: 0.7400000095367432
 
 ## Evaluation
