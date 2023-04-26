@@ -9,6 +9,13 @@ Our system is based on a Convolutional Neural Network (CNN) architecture, which 
 
 We evaluate the performance of our system on a test set of facial images, and report accuracy and other relevant metrics. We also provide scripts to visualize the predictions of our system on new facial images.
 
+## How to load and run the code
+
+1. Add data file to the root path of your drive: https://drive.google.com/file/d/1Sxt3FXYSymy-dbVhOGg99P7tJOyKGQUY/view?usp=sharing
+2. Add label file to the root path of your drive: https://drive.google.com/file/d/0B7EVK8r0v71pblRyaVFSWGxPY0U/view?usp=sharing&resourcekey=0-YW2qIuRcWHy_1C2VaRGL3Q
+3. Run the first line of the Colab and connect it to your drive
+4. Rull the rest of the Colab
+
 ## Model
 
 **Basic CNN model:**
@@ -28,9 +35,4 @@ Test accuracy: 0.7400000095367432
 
 We first tried training and predicting 50 traits for the facial attributes with 'binary_crossentropy', however, it doesn't produce good result because it's hard to predict all 50 traits correctly for each person. Because of that, we decided to break down into different pair of traits. We first train on the basic CNN model and got the accuracy of 54%. Next, we tried with EfficientNet and the accuracy improves to 74%.
 
-##How to load and run the code
 
-1. Add data file to the root path of your drive: https://drive.google.com/file/d/1Sxt3FXYSymy-dbVhOGg99P7tJOyKGQUY/view?usp=sharing
-2. Add label file to the root path of your drive: https://drive.google.com/file/d/0B7EVK8r0v71pblRyaVFSWGxPY0U/view?usp=sharing&resourcekey=0-YW2qIuRcWHy_1C2VaRGL3Q
-3. Run the first line of the Colab and connect it to your drive
-4. Rull the rest of the Colab
