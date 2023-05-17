@@ -20,19 +20,19 @@ We evaluate the performance of our system on a test set of facial images, and re
 
 **Basic CNN model:**
 
-Test loss: 0.4835874140262604
+Test loss: 0.502
 
-Test accuracy: 0.5479999780654907
+Test accuracy: 0.762
 
 
-**Transfer learning with EfficientNet:**
+**Transfer learning with MobileNetV2:**
 
-Test loss: 0.6156396269798279
+Test loss: 0.468
 
-Test accuracy: 0.7400000095367432
+Test accuracy: 0.762
 
 ## Evaluation
 
-We initially attempted to train and predict 50 facial attributes using binary_crossentropy, but the results were unsatisfactory as it was difficult to accurately predict all 50 traits for each individual. As a result, we chose to focus on separate trait pairs. Our first attempt with a basic CNN model yielded a 54% accuracy, while employing EfficientNet increased the accuracy to 74%.
+We initially attempted to train and predict 50 facial attributes using binary_crossentropy, but the results were unsatisfactory as it was difficult to accurately predict all 50 traits for each individual. As a result, we chose to focus on separate trait pairs. Our first attempt with a basic CNN model yielded a 0.762% accuracy, while employing MobileNetV2 generate similar results.
 
 
